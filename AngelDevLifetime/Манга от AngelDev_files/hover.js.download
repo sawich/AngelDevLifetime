@@ -1,0 +1,17 @@
+	$(function()  {
+		$('.content_row')
+			.hover
+				( function(ev)
+					{
+						$(this).css('background-color', '#ddf4ff');
+					}
+				, function(ev)
+					{
+						$(this).css('background-color', '#ffffff');
+					}
+				)
+/*			.click(function(ev) {
+				window.location = $(this).find('.manga_row1 .title_link').attr('href');
+			}) */
+			;
+	});

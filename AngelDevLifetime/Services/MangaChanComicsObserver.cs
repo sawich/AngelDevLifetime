@@ -22,7 +22,7 @@ public partial class MangaChanComicsObserver : BackgroundService
 		// while (!ct.IsCancellationRequested)
 		// {
 			var document = new HtmlDocument();
-			document.Load("C:\\Users\\sawic\\Downloads\\Манга от AngelDev.html");
+			document.Load("Манга от AngelDev.html");
 
 			var nodes = document.DocumentNode.SelectNodes("//div[@class='manga_row1']/div/h2/a");
 			var values = nodes.Select(v => new { Title = v.GetAttributeValue("title", ""), Url = v.GetAttributeValue("href", "0") }).Select(v => new { v.Url, v.Title, Id = int.Parse(CaptureId().Match(v.Url).Groups[1].Value) });

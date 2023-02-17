@@ -1,0 +1,345 @@
+#middle {
+	background:#218fcb;
+	float:left;
+	height:22px;
+	margin:0 auto 10px;
+	text-align:left;
+	width:960px;
+}
+#footer {
+	margin:0 auto 10px auto !important;
+}
+#top_content {
+	float:left;
+	height:100%;
+	margin:0 auto 10px auto;
+	width:506px !important;
+}
+#top_side {
+	float:right;
+	height:100%;
+	margin:0 auto;
+	padding:5px;
+	text-align:left;
+	width:444px !important
+}
+#top_side a {
+	font-weight:700;
+}
+#featured {
+	border:3px solid #000;
+	height:300px;
+	width:500px;
+}
+.top_row {
+	margin-bottom:6px !important;
+}
+#bottom {
+	float:left;
+	font-weight:700;
+	margin-top:10px;
+	text-align:left;
+	width:960px;
+}
+
+#content {
+	width:790px !important;
+}
+#side {
+	width:160px !important;
+	text-align:right !important;
+	margin-left:10px !important;
+	overflow:hidden;
+}
+.content_row {
+	float:left;
+	display:block;
+	background:#ffffff;
+	border:1px solid #abc0e0;
+	margin:0 auto 10px auto;
+	height:220px;
+	overflow:hidden;
+}
+.manga_images {
+	float:left;
+	width:200px;
+	text-align:left;
+	padding:5px;
+}
+.manga_images img {
+	height:190px; 
+	width:136px;
+	margin-right:5px;
+}
+/* language and artist colors */
+
+.japanese, .english, .chinese, .russian {
+	font-size:12px;
+	text-decoration:none;
+}
+.japanese a {
+	font-size:14px;
+	font-weight:700;
+	color:#218fcb;
+}
+.japanese a:hover {
+	text-decoration:underline;
+}
+.english a {
+	font-size:14px;
+	font-weight:700;
+	color:#0086bb !important;;
+}
+.english a:hover {
+	text-decoration:underline;
+}
+.line_break {
+	float:left;
+	width:630px;
+	height:1px;
+	background-color:#000;
+	line-height:1px;
+	margin-top:5px;
+}
+
+/* tags */
+
+.tags {
+	float:left;
+	font-size:12px;
+	line-height:16px;
+	text-align:left;
+	width:630px;
+	margin-top:3px;
+}
+.tag_caption {
+	float:left;
+	width:30px;
+	padding:2px;
+	font-weight:700;
+}
+.tag_list {
+	float:left;
+	width:520px;
+	padding:0 2px 2px 2px;
+	line-height:18px;
+}
+.tag_list a, .tag_list a:visited, .tag_list a:active,
+.row4_right a, .row4_right a:visited, .row4_right a:active {
+	color:#0000FF;
+	text-decoration:none;
+}
+.tag_list a:hover, 
+.row4_right a:hover {
+	color:#0000FF;
+	text-decoration:underline;
+}
+.manga_row1 {
+	float:left;
+	width:610px;
+	text-align:left;
+	padding:6px 0 0;
+	margin-right:6px;
+}
+.manga_row1 h2 a {
+	color:#218fcb;
+	font-size:18px;
+	font-weight:700;
+	text-decoration:none;
+}
+.manga_row1 h2 a:hover {
+	color:#218fcb;
+	text-decoration:underline;
+}
+.manga_row2 {
+	float:left;
+	width:630px;
+	text-align:left;
+	padding:5px 0 0;
+	margin-right:6px;
+}
+.manga_row2 h3, .manga_row3 h3 {
+	display:inline;
+}
+.manga_row2 h3 a, .manga_row3 h3 a {
+	color:#000;
+	font-size:14px;
+	font-weight:700;
+	text-decoration:none;
+}
+.manga_row2 h3 a:hover, .manga_row3 h3 a:hover {
+	color:#000;
+	text-decoration:underline;
+}
+.manga_row3 {
+	float:left;
+	width:630px;
+	padding:5px 0 0;
+	margin-right:6px;
+	text-align:left;
+}
+.row3_left {
+	float:left;
+	width:520px;
+	text-align:left;
+}
+.row3_right {
+	float:left;
+	width:260px;
+	text-align:right;
+}
+.row3_2_left {
+	float:left;
+	width:460px;
+	text-align:left;
+}
+.row3_2_right {
+	float:left;
+	width:60px;
+	text-align:right;
+}
+.manga_row4 {
+	float:left;
+	width:630px;
+	padding:5px 0 0;
+	margin-right:6px;
+}
+.row4_left {
+	float:left;
+	width:630px;
+	text-align:left;
+	font-size:12px;
+}
+.row4_right {
+	float:left;
+	width:240px;
+	text-align:right;
+	font-size:12px;
+}
+.item {
+	float:left;
+	width:102px;
+	font-size:12px;
+	height:14px;
+	line-height:16px;
+}
+.item2 {
+	height:16px;
+	line-height:16px;
+	overflow:hidden;
+}
+#empty {
+	background:#EFEEEF none repeat scroll 0 0;
+	float:left;
+	font-size:14px;
+	line-height:16px;
+	margin:0 auto 10px auto;
+	padding:20px;
+	text-align:justify;
+	width:920px;
+}
+#empty a, #empty a:visited, #empty a:active {
+	color:#0000FF;
+	font-weight:700;
+	text-decoration:underline;
+}
+#empty a:hover {
+	color:#0000FF;
+	font-weight:700;
+	text-decoration:none;
+}
+#series_head {
+	float:left;
+	background-color:#ffffff;
+	border:1px solid #c9e0ab;
+	font-weight:700;
+	width:660px;
+	text-align:left;
+	margin:0 auto 6px;
+	padding:5px;
+}
+#series_head_left {
+	float:left;
+	width:330px;
+	text-align:left;
+}
+#series_head_right {
+	float:left;
+	width:330px;
+	text-align:right;
+}
+#last_updated {
+	float:left;
+	width:105px;
+	text-align:center;
+	font-weight:700;
+	padding:5px;
+}
+.series_wrap{
+	float:left;
+	background-color:#FFF;
+	border:1px solid #73d0fb;
+	width:775px;
+	margin:0 auto;
+	padding:5px;
+	text-align:left;
+	margin-bottom:6px;
+	cursor:pointer;
+}
+.series_name {	
+	float:left;
+	width:330px;
+	text-align:left;
+}
+.series_name a, .series_name a:visited, .series_name a:active {
+	color:#218fcb;
+	font-weight:700;
+	text-decoration:none;
+}
+.series_name a:hover {
+	color:#218fcb;
+	font-weight:700;
+	text-decoration:underline;
+}
+.series_total {
+	float:left;
+	width:430px;
+	text-align:right;
+}
+.updated {
+	float:left;
+	width:105px;
+	text-align:center;
+	padding:5px;
+}
+#additional {
+	background-color:#EFEFEF;
+	border:1px solid #999999;
+	float:left;
+	margin-bottom:8px;
+	width:958px;
+}
+#additional h2 {
+	font-size:18px;
+	font-weight:700;
+	margin-bottom:4px;
+}
+#additional_image {
+	float:left;
+	height:140px;
+	width:210px;
+}
+#additional_description {
+	float:right;
+	font-size:12px;
+	line-height:14px;
+	padding:10px;
+	text-align:left;
+	width:728px;
+}
+#additional_description h3 {
+	font-weight:300;
+}
+#additional_description a {
+	text-decoration:underline;
+}
